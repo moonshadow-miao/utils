@@ -1,0 +1,34 @@
+{
+  "name": "datastructure",
+  "version": "0.0.0",
+  "description": "A library of data structures written in TS for daily encoding and LeeCode problem solving",
+  "keywords": [
+    "structures",
+    "ts",
+    "leecode"
+  ],
+  "author": "Miao Danyang",
+  "homepage": "http://dist/index.js",
+  "license": "ISC",
+  "main": "src/index",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonshadow-miao/utils.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/dataStructure.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/moonshadow-miao/utils/issues"
+  }
+}
